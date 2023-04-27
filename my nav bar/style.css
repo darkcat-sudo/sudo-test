@@ -1,0 +1,26 @@
+body{
+  margin: 0px;
+}
+.nav{
+  position: fixed;
+  background-color: mediumvioletred;
+  width: 1440px;
+  height: 60px;
+}
+.nav-list{
+  position: absolute;
+  display: inline-block;
+  width: 33%;
+  top: 40px;
+  left:16rem;
+  padding: 34px 40px;
+  border: 3px solid green;
+}
+.nav-list li {
+  display: inline-block;
+  color: black;
+  
+}
+.nav-list li a{
+  padding: 34px 30px;
+}
