@@ -1,69 +1,75 @@
 
 /*lagrge screen*/
 @media only screen and (min-width: 600px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        
+    }
+    #loding{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fff url(images/loader.gif) no-repeat center;
+        z-index: 100;
+
+    }
     .navbar{
         position: fixed;
-        width: 1440px;
-        height: 50px;
-        margin: -8px;
-        padding: 0px;
-        background-color: rgb(96, 243, 231);
+        top: 0px;
+        width: 100%;
+        height: 52px;
+      
+        background-color: rgb(163, 224, 235);
+        overflow-y: hidden ;
+       
     }
-   .list li a:hover,:active{
+   .list li a:hover{
       color: red;
       background-color: white;
       transition: 0.85s;
         }
         .list{
             width: 33%;
-            margin: -2px 462px;
+            margin: auto;
             border: 3px;
+            margin-right: 168px;
             
         }
         .list li{
             display: inline-block;
-            padding: 18px 10px;
+            
+            padding: 17px 12px;
             font-size: 16px;
+        
         }
         .list li a{
             padding: 4px 16px;
             border: 2px solid white;
             text-decoration: none;
-            color: rgb(87, 57, 57);
+            color: rgb(97, 52, 52);
             border-radius: 5px;
             
         }
-
-/*small screen*/
- @media only screen and(max-width: 600px){
-    .navbar{
-        position: fixed;
-        width: 600px;
-        height: 10px;
-        margin: -8px;
-        padding: 0px;
-        background-color: rgb(0, 0, 0);
+        .logo img{
+            position: fixed;
+            left: 47px;
+            top: -65px;
+            width: 181px;
+        }
+    .content{
+        background: rgba(0, 0,0,0.7) url(images/mny.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 2340px;
+        
     }
-        .list li a:active{
-            color: red;
-            background-color: white;
-            transition: 0.85s;
-              }
-              .list{
-                  width: 33%;
-                  margin: -2px auto;
-                  border: 3px;
-                  
-              }
-              .list li{
-                  display: inline-block;
-                  padding: 18px 10px;
-                  font-size: 16px;
-              }
-              .list li a{
-                  padding: 4px 16px;
-                  border: 2px solid white;
-                  text-decoration: none;
-                  color: rgb(87, 57, 57);
-                  border-radius: 5px;
-                      }
+
+
+
+
+
+
+
+    }
+        
