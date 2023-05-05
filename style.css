@@ -21,7 +21,7 @@
         width: 100%;
         height: 52px;
       
-        background-color: rg(163, 224, 235);
+        background-color: rgb(163, 224, 235);
         overflow-y: hidden ;
        
     }
