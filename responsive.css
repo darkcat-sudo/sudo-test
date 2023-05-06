@@ -7,10 +7,13 @@
         padding: 0px;
         box-sizing: border-box;
     }
+    html {
+        height: 100%;
+    }
     body{
         width: 100%;
-        height: 100vh;
-        /*border: dashed red;*/
+        min-height: 100vh;
+        
     }
     #loding{
         position: fixed;
@@ -18,6 +21,7 @@
         height: 100vh;
         background: #fff url(https://drive.google.com/uc?export=download&id=1zenv7hNx8PIRp7QfNt9kGl9DfilTTTjO) no-repeat center;
         z-index: 100;
+        background-size: 45px;
     }
     .content{
         background: rgba(0, 0,0,0.7) url(https://drive.google.com/uc?export=download&id=1uYFtJhT8tR3YBNcEPyoYAzhGheIUU9vZ);
@@ -33,7 +37,7 @@
         width: 100%;
         top: -1px;
 
-        height: 72px;
+        height: 56px;
 
     }
     .burger{
@@ -44,17 +48,17 @@
         top: 8px;
     }
      .line{
-        width: 36px;
+        width: 28px;
         background: black;
         height: 1px;
-        margin: 12px;
+        margin: 8px;
         border-radius: 1px;
+}
     
     } 
     
   .listr{
-      display: absolute;
-      padding: 10px 8px;
+     
       opacity: 0;
 
       
@@ -62,10 +66,11 @@
     
   }
   .listrtg{
-    display: block;
-    padding: 5px 6px;
-
     opacity: 1;
+    position: fixed;
+    left: 231px;
+    text-align: center;
+    top: 67px;
 }
 
 .listrtg li a{
@@ -88,9 +93,9 @@
   } 
   .logo img{
       position: fixed;
-      top: -13vw;
+      top: -12vw;
       left: 1%; 
-      width: 43%;
+      width: 36%;
     
   }
   .none iframe{
