@@ -15,7 +15,7 @@
         height: 141vh;
         background: #fff url(https://drive.google.com/uc?export=download&id=1zenv7hNx8PIRp7QfNt9kGl9DfilTTTjO) no-repeat center;
         z-index: 100;
-        background-size: 57px 70px;
+        background-size: 47px 60px;
     }
     #ny{
        overflow-y: hidden;
@@ -63,10 +63,42 @@
         }
     .content{
         background: rgba(0, 0,0,0.7) url(https://drive.google.com/uc?export=download&id=1uYFtJhT8tR3YBNcEPyoYAzhGheIUU9vZ);
-        background-repeat: no-repeat;
-        background-size: 100% 2340px;
+        
+        background-size: 100% 2000px;
+        
         
     }
+    h1{
+        opacity: 0;
+        height: 24px;
+    }
+     .container{
+
+        background-color: rgba(255, 255, 255, 0.788);
+        width: 71%;
+        height: 78vh;
+        margin: 71px 160px;
+        
+        border-radius: 30px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+     }
+    .container li{
+        list-style: none;
+    }
+    .container li a{
+       font-size: 27px;
+       border: 2px solid red;
+       text-decoration: dashed;
+       text-align: center;
+       background-color: rgb(0, 0, 0);
+
+    }
+    
+
+
+
 
  .none iframe{
    width: 460px;
