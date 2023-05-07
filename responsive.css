@@ -37,23 +37,22 @@
         width: 100%;
         top: -1px;
 
-        height: 56px;
+        height: 54px;
 
     }
     .burger{
         display: block;
 
         position: absolute;
-        right: 3%;
-        top: 8px;
+        right: 2%;
+        top: 7px;
     }
      .line{
-        width: 28px;
-        background: black;
-        height: 1px;
-        margin: 8px;
-        border-radius: 1px;
-}
+        width: 26px;
+     background: black;
+    height: 1px;
+    margin: 9px;
+    border-radius: 2px;
     
     } 
     
