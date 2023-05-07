@@ -1,8 +1,12 @@
-{var preload = document.getElementById('loding');
-function myLoad (){
-    preload.style.display = 'none';
-}
-}
+
+function myLoad ()
+  { let preload = document.getElementById('loding');
+    let changeid = document.getElementById('ny');
+      preload.style.display = 'none';
+      changeid.setAttribute('id','chy');
+
+   }
+
 function change() {
     let gt = document.querySelector(".listr");
     gt.classList.toggle("listrtg")

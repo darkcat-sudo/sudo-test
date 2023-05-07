@@ -9,11 +9,18 @@
     }
     #loding{
         position: fixed;
+        bottom: -96px;
         width: 100%;
-        height: 100vh;
+        height: 141vh;
         background: #fff url(https://drive.google.com/uc?export=download&id=1zenv7hNx8PIRp7QfNt9kGl9DfilTTTjO) no-repeat center;
         z-index: 100;
-
+        background-size: 57px 70px;
+    }
+    #ny{
+        color: white;
+        width: 100%;
+        height: 100vh;
+        
     }
     .navbar{
         position: fixed;
