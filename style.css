@@ -4,9 +4,10 @@
     *{
         margin: 0px;
         padding: 0px;
-        overflow-x: hidden;
+        
         
     }
+   
     #loding{
         position: fixed;
         bottom: -96px;
@@ -17,16 +18,13 @@
         background-size: 57px 70px;
     }
     #ny{
-        color: white;
-        width: 100%;
-        height: 100vh;
-        
+       overflow-y: hidden;
     }
     .navbar{
         position: fixed;
         top: 0px;
         width: 100%;
-        height: 52px;
+        height: 56px;
       
         background-color: rgb(163, 224, 235);
         overflow-y: hidden ;
@@ -35,20 +33,17 @@
    .list li a:hover{
       color: red;
       background-color: white;
-      transition: 0.85s;
+      transition: 0.95s;
         }
         .list{
-            width: 33%;
-            margin: auto;
-            border: 3px;
-            margin-right: 168px;
+            margin-left: 44%;
             
         }
         .list li{
             display: inline-block;
             
-            padding: 17px 12px;
-            font-size: 16px;
+            padding: 17px 1%;
+            
         
         }
         .list li a{
@@ -57,6 +52,7 @@
             text-decoration: none;
             color: rgb(97, 52, 52);
             border-radius: 5px;
+            font-size: 17px;
             
         }
         .logo img{
