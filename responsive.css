@@ -20,6 +20,7 @@
         width: 100%;
         min-height: 100vh;
         
+        
     }
     #loding{
         position: fixed;
@@ -73,27 +74,31 @@
   }
   .listrtg{
     opacity: 1;
-    position: fixed;
-    left: 231px;
     text-align: center;
-    top: 67px;
+    display: flex;
+    flex-direction: column;
+    margin: 54px 0px 0px 0px;
+    background: black;
+    width: 48%;
+    height: 100VH;
+    position: fixed;
+    right: 0px;
+   
 }
 
-.listrtg li a{
+.listrtg a {
     background-color: aquamarine;
-    font-size: 28px;
-    padding: 27px;
-    line-height: 30px;
+    border: 2px solid red;
+    font-size: 25px;
+    margin: 38px 0px 0px;
+    padding: 26px 0px;
+    
+  
 
 }
-  .listr li{
-      list-style: none;
-      padding:  15px;
-      
 
-  }
-  .listr li a{
-     
+  .listr a{
+     /*blank */
   } 
   .logo img{
       position: fixed;
