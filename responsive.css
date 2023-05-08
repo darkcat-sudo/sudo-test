@@ -97,9 +97,7 @@
 
 }
 
-  .listr a{
-     /*blank */
-  } 
+
   .logo img{
       position: fixed;
       top: -12vw;
@@ -130,10 +128,8 @@
     align-items: center;
     justify-content: center;
  }
-.container li{
-    list-style: none;
-}
-.container li a{
+
+.container a{
    font-size: 27px;
    border: 1px solid red;
   
