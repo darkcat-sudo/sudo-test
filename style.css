@@ -158,10 +158,10 @@
      
       }
       .rty{
-         background: rgba(255, 255, 255, 0.719);
+         background: rgba(255, 255, 255, 0.699);
           width: 80%;
           border-radius: 39px;
-          backdrop-filter: blur(3.8px);
+          backdrop-filter: blur(2.8px);
      
       }
        #bappi{
