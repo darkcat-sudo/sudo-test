@@ -176,13 +176,14 @@
 
 
   .logo img{
-    width: 186px;
+    margin: 11px 22px;
     
   }
   .logo{
     position: fixed;
-    top: -68px;
-    left: -9px;
+    top: 0px;
+    height: 54px;
+    display: flex;
  
   }
   .none{
