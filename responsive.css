@@ -112,13 +112,25 @@
       margin: 30px 0px;
   }
   .btstyle{ 
-    background-color: rgb(0, 0, 0);
-    color: white;
-    border: none;
+    background-color: rgb(255 255 255);
+    color: black;
     border-radius: 5px;
-    padding: 9px 13px;
+    padding: 11px 16px;
     font-size: 20px;
+    cursor: pointer;
+    transition-duration: 500ms;
   }
+  .btstyle-active{
+    
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 5px;
+    padding: 11px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    transition-duration: 500ms;
+  }
+  
   .bdpart{
     margin: 28px 0px;
     display: grid !important;
@@ -141,9 +153,10 @@
     margin: 12px 0px;
 }
   .rty{
-    background: rgb(255 255 255 / 84%);
+    background: rgba(255, 255, 255, 0.767);
       width: 90%;
       border-radius: 20px;
+      backdrop-filter: blur(3.8px);
  
   }
    #bappi{
