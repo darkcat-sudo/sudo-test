@@ -20,3 +20,8 @@ function etu(){
   let bt = document.querySelector("#bbd");
   bt.classList.toggle("bdpart");
 }
+function suB(){
+  window.open("https://youtu.be/oO5k-0QpxTk","_blank");
+  
+
+}
