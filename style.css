@@ -37,6 +37,9 @@
     
        
     }
+    .list{
+        display: none;
+    }
     .logo{
         height: 56px;
         display: flex;
@@ -48,16 +51,16 @@
     .burger{
         display: none;
     }
-   .list a:hover{
+   .lis a:hover{
       color: red;
       background-color: white;
       transition: 0.95s;
         }
-        .list{
+        .lis{
             display: flex;
             
         }
-        .list a{
+        .lis a{
             padding: 4px 16px;
             border: 2px solid white;
             color: rgb(97, 52, 52);

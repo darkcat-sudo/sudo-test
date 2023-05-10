@@ -67,31 +67,53 @@
     
     .onburger{
       background: #0000000f !important;
-      transition: background 1s;
+     
 
     }
     
     .onburger svg{
-    transform: rotate(55deg);
-    transition-duration: 1s; 
+    transform: rotate(90deg);
+     
     
     }
     .list{
       display: none;
     }
+    .lis{
+      display: none;
+    }
+  .p{
+    height: 54px;
+    width: 0px;
+    opacity: 0px;
+  }
     
   .listr{
      
     display: flex !important;
     flex-direction: column;
+    justify-content: space-between;
     text-align: center;
-    position: absolute;
+    position: fixed;
+    z-index: 2;
     background: burlywood;
-    top: 54px;
-    min-height: 100vh;
+    height: 100vh;
     width: 44%;
     right: 0px;
-  
+  }
+  .listtop{
+    background: red;
+    display: grid;
+    place-items: center;
+  }
+  .listtop a{
+    background-color: aquamarine;
+    border: 2px solid red;
+    font-size: 25px;
+    padding: 26px 0px;
+  }
+  .theme{
+    background: white;
   }
   #dut{
       display: none;
@@ -105,16 +127,7 @@
   }
   
 
-.listr a {
-    background-color: aquamarine;
-    border: 2px solid red;
-    font-size: 25px;
-    margin: 38px 0px 0px;
-    padding: 26px 0px;
-    
-  
 
-}
   /*   explore winddow css*/
   .bt{
      
