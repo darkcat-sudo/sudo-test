@@ -96,13 +96,15 @@
     text-align: center;
     position: fixed;
     z-index: 2;
-    background: burlywood;
+    background: #ffffff87;
+    backdrop-filter: blur(9px);
+    box-shadow: -7px 0px 43px 0px black;
     height: 100vh;
-    width: 44%;
+    width: 66%;
     right: 0px;
   }
   .listtop{
-    background: red;
+    
     display: grid;
     place-items: center;
   }
