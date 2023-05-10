@@ -56,14 +56,26 @@
       display: grid;
     place-items: center;
     height: 54px;
-    width: 58px;
-
+    width: 68px;
+    transition: background 1s;
         
     }
+    .burger svg{
+      
+    transition-duration: 1s; 
+    }
+    
     .onburger{
       background: #0000001f !important;
+      transition: background 1s;
+
     }
-   
+    
+    .onburger svg{
+    transform: rotate(45deg);
+    transition-duration: 1s; 
+    
+    }
     .list{
       display: none;
     }
