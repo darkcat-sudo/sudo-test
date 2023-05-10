@@ -8,9 +8,10 @@
    }
  
 function change() {
-    let gt = document.querySelector(".listr");
-    let hyy = document.getElementById('dut');
-    gt.classList.toggle("listrtg");
+    let gt = document.querySelector(".list");
+    let hyy = document.querySelector(".burger");
+    gt.classList.toggle("listr");
+    hyy.classList.toggle("onburger");
     
 }
 document.querySelector('.burger').addEventListener('click',change);
