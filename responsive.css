@@ -123,6 +123,9 @@
     align-items: center;
     height: 153px;
   }
+  .rtheme{
+    height: 30px;
+  }
   #dut{
       display: none;
   }
