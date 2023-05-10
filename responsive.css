@@ -117,14 +117,19 @@
     padding: 26px 0px;
   }
   .theme{
-    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 153px;
+    height: 147px;
+    background: white;
   }
   .rtheme{
-    height: 30px;
+    height: 60px;
+    width: 100%;
+    bottom: 76px;
+    position: absolute;
+    background: white;
+    z-index: 30;
   }
   #dut{
       display: none;
