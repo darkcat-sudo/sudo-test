@@ -109,8 +109,12 @@
     place-items: center;
   }
   .listtop a{
-    background-color: aquamarine;
-    border: 2px solid red;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgb(255 255 255 / 26%) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
     font-size: 25px;
     padding: 26px 0px;
   }
