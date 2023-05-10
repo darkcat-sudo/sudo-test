@@ -56,7 +56,7 @@
       display: grid;
     place-items: center;
     height: 54px;
-    width: 68px;
+    width: 65px;
     transition: background 1s;
         
     }
@@ -66,13 +66,13 @@
     }
     
     .onburger{
-      background: #0000001f !important;
+      background: #0000000f !important;
       transition: background 1s;
 
     }
     
     .onburger svg{
-    transform: rotate(45deg);
+    transform: rotate(55deg);
     transition-duration: 1s; 
     
     }
