@@ -87,7 +87,11 @@
     width: 0px;
     opacity: 0px;
   }
-    
+    .ih{
+      width: 0px;
+      height: 55px;
+      opacity: 0;
+    }
   .listr{
      
     display: flex !important;
