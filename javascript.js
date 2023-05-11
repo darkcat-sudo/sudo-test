@@ -8,8 +8,10 @@
    }
    function mui(){
     let gyo =document.querySelector(".list");
+    let nj=document.querySelector(".bac");
+    nj.setAttribute("class","bac");
     gyo.setAttribute("class","list");
-   }document.querySelector('.backbt').addEventListener('click',mui);
+   }//document.querySelector('.backbt').addEventListener('click',mui);
 { 
 function change() {
     let gt = document.querySelector(".list");
