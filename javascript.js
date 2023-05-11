@@ -16,8 +16,10 @@
 function nut(){
   let fut=document.querySelector(".vuj");
   let but=document.querySelector(".listtop");
+  let dug=document.querySelector(".burger");
   fut.classList.toggle("buj");
   but.classList.toggle("buj");
+  dug.classList.toggle("onburger");
 }
   { 
 function change() {
