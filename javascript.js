@@ -9,17 +9,19 @@
    function mui(){
     let gyo =document.querySelector("#list");
     let nj=document.querySelector(".bac");
+    let dug=document.querySelector(".burger");
     nj.classList.toggle("backbt");
     gyo.classList.toggle("listr");
+    dug.classList.toggle("onburger");
   
   }//document.querySelector('.backbt').addEventListener('click',mui);
 function nut(){
   let fut=document.querySelector(".vuj");
   let but=document.querySelector(".listtop");
-  let dug=document.querySelector(".burger");
+ 
   fut.classList.toggle("buj");
   but.classList.toggle("buj");
-  dug.classList.toggle("onburger");
+  
 }
   { 
 function change() {
