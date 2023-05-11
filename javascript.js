@@ -10,8 +10,10 @@
 function change() {
     let gt = document.querySelector(".list");
     let hyy = document.querySelector(".burger");
+    let ny = document.querySelector(".bac");
     gt.classList.toggle("listr");
     hyy.classList.toggle("onburger");
+    ny.classList.toggle("backbt");
     
 }
 document.querySelector('.burger').addEventListener('click',change);

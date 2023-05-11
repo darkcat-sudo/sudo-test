@@ -145,12 +145,17 @@
     bottom: 87px;
     z-index: 1;
   }
+  .bac{
+    display:none;
+  }
   .backbt{
-    width: 100%;
-    opacity: 0;
+    min-width: 100%;
+    opacity: 1;
     height: 100vh;
-    position: relative;
-    z-index: 96;
+    background: #0000002b;
+    position: fixed;
+    z-index: 95;
+    display: block !important;
   }
   #dut{
       display: none;
