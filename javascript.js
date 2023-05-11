@@ -6,7 +6,11 @@
       changeid.setAttribute('id','chy');
 
    }
- 
+   function mui(){
+    let gyo =document.querySelector(".list");
+    gyo.setAttribute("class","list");
+   }document.querySelector('.backbt').addEventListener('click',mui);
+{ 
 function change() {
     let gt = document.querySelector(".list");
     let hyy = document.querySelector(".burger");
@@ -17,7 +21,7 @@ function change() {
     
 }
 document.querySelector('.burger').addEventListener('click',change);
-
+}
 
 function etu(){
   let bt = document.querySelector("#bbd");
