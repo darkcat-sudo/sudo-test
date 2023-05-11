@@ -112,15 +112,13 @@
     height: 452px;
   }
   .listtop a{
-    background-color: #0276FF;
-    border-radius: 8px;
-    border-style: none;
-    box-shadow: rgb(255 255 255 / 26%) 0 1px 2px inset;
+    background-color: #ffffff;
+    border-radius: 9px;
     box-sizing: border-box;
-    color: #fff;
-    font-size: 31px;
-    width: 74%;
-    height: 66px;
+    color: #000;
+    font-size: 23px;
+    width: 85%;
+    height: 55px;
     display: grid;
     place-items: center;
   }
@@ -132,7 +130,9 @@
     justify-content: center;
   }
   .vuj{
-    width: 87%;
+    width: 85%;
+    transition-duration: 1s;
+    border-radius: 9px;
   }
   .buj{
     filter: invert(1);

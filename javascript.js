@@ -15,7 +15,9 @@
   }//document.querySelector('.backbt').addEventListener('click',mui);
 function nut(){
   let fut=document.querySelector(".vuj");
-  fut.classList.toggle("buj")
+  let but=document.querySelector(".listtop");
+  fut.classList.toggle("buj");
+  but.classList.toggle("buj");
 }
   { 
 function change() {
