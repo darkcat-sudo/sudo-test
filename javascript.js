@@ -9,7 +9,7 @@
    function mui(){
     let gyo =document.querySelector(".list");
     let nj=document.querySelector(".bac");
-    nj.setAttribute("class","bac");
+    nj.classList.toggle("backbt");
     gyo.setAttribute("class","listt");
   
   }//document.querySelector('.backbt').addEventListener('click',mui);
