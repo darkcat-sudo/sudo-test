@@ -101,7 +101,7 @@
     box-shadow: -4px 0px 50px 0px black;
     height: 100vh;
     width: 66%;
-    right: 0px;
+    right: 0px !important;
   }
   .listtop{
     
@@ -124,7 +124,19 @@
     transition-duration: 1s;
   }
   .listt{
-    
+    display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    position: fixed;
+    z-index: 97;
+    background: #ffffff87;
+    backdrop-filter: blur(9px);
+    box-shadow: -4px 0px 50px 0px black;
+    height: 100vh;
+    width: 66%;
+    right: -289px;
+    transition-duration: 800ms;
   }
   .theme{
     flex-grow: 0.28;
