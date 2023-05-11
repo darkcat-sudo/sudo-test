@@ -95,7 +95,7 @@
     justify-content: space-between;
     text-align: center;
     position: fixed;
-    z-index: 2;
+    z-index: 97;
     background: #ffffff87;
     backdrop-filter: blur(9px);
     box-shadow: -4px 0px 50px 0px black;
@@ -144,6 +144,13 @@
     height: 66px;
     bottom: 87px;
     z-index: 1;
+  }
+  .backbt{
+    width: 100%;
+    opacity: 0;
+    height: 100vh;
+    position: relative;
+    z-index: 96;
   }
   #dut{
       display: none;
