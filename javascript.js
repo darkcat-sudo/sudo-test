@@ -10,7 +10,7 @@
     let gyo =document.querySelector("#list");
     let nj=document.querySelector(".bac");
     nj.classList.toggle("backbt");
-    gyo.setAttribute("class","listt");
+    gyo.classList.toggle("listr");
   
   }//document.querySelector('.backbt').addEventListener('click',mui);
 function nut(){
