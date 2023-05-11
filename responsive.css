@@ -82,6 +82,9 @@
     .lis{
       display: none;
     }
+    .home{
+      filter: invert(1);
+    }
   .p{
     height: 54px;
     width: 0px;
