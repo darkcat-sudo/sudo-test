@@ -110,6 +110,7 @@
     align-items: center;
     justify-content: space-evenly;
     height: 452px;
+     transition-duration: 1s;
   }
   .listtop a{
     background-color: #ffffff;

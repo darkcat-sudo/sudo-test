@@ -21,7 +21,7 @@ function nut(){
 }
   { 
 function change() {
-    let gt = document.querySelector(".list");
+    let gt = document.querySelector("#list");
     let hyy = document.querySelector(".burger");
     let ny = document.querySelector(".bac");
     gt.classList.toggle("listr");
