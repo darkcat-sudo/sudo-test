@@ -97,7 +97,7 @@
     position: fixed;
     z-index: 97;
     background: #ffffff87;
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px) !important;
     box-shadow: -4px 0px 50px 0px black;
     height: 100vh;
     width: 66%;
@@ -132,7 +132,7 @@
     position: fixed;
     z-index: 97;
     background: #ffffff87;
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(0.6px);
     box-shadow: -4px 0px 50px 0px black;
     height: 100vh;
     width: 66%;
