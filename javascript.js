@@ -7,7 +7,7 @@
 
    }
    function mui(){
-    let gyo =document.querySelector(".list");
+    let gyo =document.querySelector("#list");
     let nj=document.querySelector(".bac");
     nj.classList.toggle("backbt");
     gyo.setAttribute("class","listt");
