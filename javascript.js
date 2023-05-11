@@ -11,8 +11,13 @@
     let nj=document.querySelector(".bac");
     nj.setAttribute("class","bac");
     gyo.setAttribute("class","list");
-   }//document.querySelector('.backbt').addEventListener('click',mui);
-{ 
+  
+  }//document.querySelector('.backbt').addEventListener('click',mui);
+function nut(){
+  let fut=document.querySelector(".vuj");
+  fut.classList.toggle("buj")
+}
+  { 
 function change() {
     let gt = document.querySelector(".list");
     let hyy = document.querySelector(".burger");

@@ -131,6 +131,12 @@
     align-items: center;
     justify-content: center;
   }
+  .vuj{
+    width: 87%;
+  }
+  .buj{
+    filter: invert(1);
+  }
   .l{
     width: 0px;
     height: 55px;
