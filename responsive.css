@@ -121,6 +121,10 @@
     height: 55px;
     display: grid;
     place-items: center;
+    transition-duration: 1s;
+  }
+  .listt{
+    
   }
   .theme{
     flex-grow: 0.28;
