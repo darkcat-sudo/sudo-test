@@ -136,15 +136,7 @@
     height: 55px;
     opacity: 0;
   }
-  .mk{
-    width: 74%;
-    border-radius: 8px;
-    background: white;
-    position: absolute;
-    height: 66px;
-    bottom: 87px;
-    z-index: 1;
-  }
+
   .bac{
     display:none;
   }
