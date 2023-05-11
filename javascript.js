@@ -1,5 +1,5 @@
 
- function myLoad ()
+function myLoad ()
   { let preload = document.getElementById('loding');
     let changeid = document.getElementById('ny');
       preload.style.display = 'none';
